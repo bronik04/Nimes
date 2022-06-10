@@ -10,9 +10,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700&display=swap"
     rel="stylesheet">
-  <link href="style.css"
+  <link href="./catalog.css"
     rel="stylesheet">
-  <title>«Nîmes» | Denim Clothing & Outfits</title>
+  <title>Catalog | «Nîmes»</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
       <ul class="site-navigation">
         <li class="site-navigation-item">
           <a class="link-item"
-            href="catalog.html">Women</a>
+            href="#">Women</a>
         </li>
         <li class="site-navigation-item">
           <a class="link-item"
@@ -62,42 +62,90 @@
     </nav>
   </header>
   <main>
-    <h1 class="visually-hidden">Denim Clothing & Outfits</h1>
-    <section class="promo">
-      <div class="container promo-wrapper">
-        <div class="promo-text-column">
-          <h2 class="promo-title">The quality you deserve</h2>
-          <p class="promo-text">Denim</p>
-          <a class="button"
-            href="#">Check new collection</a>
-          <a class="arrow"
-            href="#">
-            <img src="./img/arrow.svg"
-              alt="arrow">
-          </a>
+    <div class="catalog-header">
+      <div class="catalog-header-wrapper container">
+        <div class="catalog-header-text-column">
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link"
+                href="index.html">All categories</a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link"
+                href="catalog.html">Woman</a>
+            </li>
+            <li class="breadcrumbs-item breadcrumbs-current">
+              <a class="breadcrumbs-link"
+                href="catalog.html">Jackets</a>
+            </li>
+          </ul>
+          <h1 class="catalog-title">Denim Collection Fall 2019</h1>
         </div>
-        <div class="promo-img-column">
-          <img src="img/matheus.jpg"
-            width="430"
-            height="517"
-            alt="New collection">
+        <div class="catalog-header-img-column">
+          <img src="./img/catalog/61.jpg"
+            width="299"
+            height="260"
+            alt="lettering on jeans We see what we want">
         </div>
       </div>
-    </section>
-    <section class="bestsellers container">
-      <header class="section-header">
-        <h2 class="section-title">Bestsellers</h2>
-        <a class="show-more"
-          href="catalog.html">View all</a>
-      </header>
-      <ul class="catalog-list">
+    </div>
+    <section class="catalog container">
+      <h2 class="visually-hidden">Jackets</h2>
+      <select class="catalog-filters">
+        <option>Filter by</option>
+      </select>
+      <ul class="catalog-list catalog-list-compact">
         <li class="catalog-item">
           <a class="catalog-item-link"
             href="card.html">
             <h3>Jacket</h3>
-            <img src="img/63.jpg"
-              width="270"
-              height="349"
+            <img src="./img/catalog/9.jpg"
+              width="243"
+              height="270"
+              alt="Jacket">
+            <p class="catalog-item-price">$40</p>
+          </a>
+        </li>
+        <li class="catalog-item">
+          <a class="catalog-item-link"
+            href="card.html">
+            <h3>Jacket</h3>
+            <img src="./img/catalog/2.jpg"
+              width="243"
+              height="270"
+              alt="Jacket">
+            <p class="catalog-item-price">$70</p>
+          </a>
+        </li>
+        <li class="catalog-item">
+          <a class="catalog-item-link"
+            href="card.html">
+            <h3>Jacket</h3>
+            <img src="./img/catalog/4.jpg"
+              width="243"
+              height="270"
+              alt="Jacket">
+            <p class="catalog-item-price">$60</p>
+          </a>
+        </li>
+        <li class="catalog-item">
+          <a class="catalog-item-link"
+            href="card.html">
+            <h3>Jacket</h3>
+            <img src="./img/catalog/11.jpg"
+              width="243"
+              height="270"
+              alt="Jacket">
+            <p class="catalog-item-price">$50</p>
+          </a>
+        </li>
+        <li class="catalog-item">
+          <a class="catalog-item-link"
+            href="card.html">
+            <h3>Jacket</h3>
+            <img src="./img/catalog/15.jpg"
+              width="243"
+              height="270"
               alt="Jacket">
             <p class="catalog-item-price">$120</p>
           </a>
@@ -105,11 +153,11 @@
         <li class="catalog-item">
           <a class="catalog-item-link"
             href="card.html">
-            <h3>Overalls</h3>
-            <img src="img/64.jpg"
-              width="270"
-              height="349"
-              alt="Overalls">
+            <h3>Jacket</h3>
+            <img src="./img/catalog/1.jpg"
+              width="243"
+              height="270"
+              alt="Jacket">
             <p class="catalog-item-price">$140</p>
           </a>
         </li>
@@ -117,9 +165,9 @@
           <a class="catalog-item-link"
             href="card.html">
             <h3>Jacket</h3>
-            <img src="img/62.jpg"
-              width="270"
-              height="349"
+            <img src="./img/catalog/3.jpg"
+              width="243"
+              height="270"
               alt="Jacket">
             <p class="catalog-item-price">$90</p>
           </a>
@@ -127,100 +175,26 @@
         <li class="catalog-item">
           <a class="catalog-item-link"
             href="card.html">
-            <h3>Overalls</h3>
-            <img src="img/65.jpg"
-              width="270"
-              height="349"
-              alt="Overalls">
+            <h3>Jacket</h3>
+            <img src="./img/catalog/13.jpg"
+              width="243"
+              height="270"
+              alt="Jacket">
             <p class="catalog-item-price">$160</p>
           </a>
         </li>
       </ul>
+      <div class="catalog-slider">
+        <p class="catalog-slider-caption">Showing <span>9</span> of
+          <span>45</span> items
+        </p>
+        <button class="catalog-slider-button button"
+          type="button">Load more</button>
     </section>
-    <section class="news container">
-      <header class="section-header">
-        <h2 class="section-title">News</h2>
-        <a class="show-more"
-          href="catalog.html">View all</a>
-      </header>
-      <div class="news-wrapper">
-        <div class="news-text-column">
-          <h2 class="news-title">G- Star Updates Its Sustainable Collection</h2>
-          <time class="news-time"
-            datetime="2020-02-12 11:00">Feb 12, 2020</time>
-          <p class="news-text">G-Star Raw is pushing the sustainability movement
-            forward with a collection of stretch denim items for spring 2020
-            which
-            is particularly designed for reuse. G-Star seeks to contribute to
-            positive change in the denim industry, by using each sustainable
-            innovation as a building block for a future. The brand has been
-            working
-            to recycle its jeans into new since 2012 when it released the
-            first-ever
-            Cradle to Cradle (C2C) Gold level-certified denim in late 2017.</p>
-          <a class="button"
-            href="#">Read more…</a>
-        </div>
-        <div class="news-img-column">
-          <img src="img/67.jpg"
-            width="700"
-            height="462"
-            alt="Collection stretch denim items for spring 2020">
-        </div>
-      </div>
-    </section>
-    <section class="categories container">
-      <header class="section-header">
-        <h2 class="section-title">Shop by category</h2>
-        <a class="show-more"
-          href="catalog.html">View all</a>
-      </header>
-      <ul class="catalog-list">
-        <li class="catalog-item">
-          <a class="catalog-item-link"
-            href="#">
-            <h3>Jeans</h3>
-            <img src="img/51.jpg"
-              width="270"
-              height="349"
-              alt="Jeans">
-          </a>
-        </li>
-        <li class="catalog-item">
-          <a class="catalog-item-link"
-            href="#">
-            <h3>Shirts</h3>
-            <img src="img/52.jpg"
-              width="270"
-              height="349"
-              alt="Shirts">
-          </a>
-        </li>
-        <li class="catalog-item">
-          <a class="catalog-item-link"
-            href="#">
-            <h3>Jacket</h3>
-            <img src="img/53.jpg"
-              width="270"
-              height="349"
-              alt="Jacket">
-          </a>
-        </li>
-        <li class="catalog-item">
-          <a class="catalog-item-link"
-            href="#">
-            <h3>Overalls</h3>
-            <img src="img/54.jpg"
-              width="270"
-              height="349"
-              alt="Overalls">
-          </a>
-        </li>
-      </ul>
-    </section>
+    </div>
   </main>
   <footer class="main-footer">
-    <div class="container main-footer-wrapper">
+    <div class="main-footer-wrapper container">
       <a class="main-footer-logo"
         href="index.html">
         <img src="./img/footer-logo.svg"
